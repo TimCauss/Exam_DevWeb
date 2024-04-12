@@ -34,5 +34,25 @@ img {
 }
 
 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+button:active {
+    background-color: #2B5D93;
 }
